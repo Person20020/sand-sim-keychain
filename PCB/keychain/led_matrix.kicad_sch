@@ -1,0 +1,2603 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "a0b5240f-800c-4c1e-a05e-74f8330d3cb2")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Device:LED_KRGB"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 9.398 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED_KRGB"
+				(at 0 -8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "RGB LED, cathode/red/green/blue"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "LED RGB diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "LED_KRGB_0_0"
+				(text "R"
+					(at 1.905 3.81 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "G"
+					(at 1.905 -1.27 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "B"
+					(at 1.905 -6.35 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(symbol "LED_KRGB_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 6.35) (xy -1.27 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 6.35) (xy -1.27 3.81) (xy -1.27 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 5.08) (xy 1.27 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 5.08) (xy -2.032 5.08) (xy -2.032 -5.08) (xy -1.016 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -3.81) (xy -1.27 -6.35)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -5.08) (xy 1.27 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 6.35) (xy 0.508 7.874) (xy -0.254 7.874) (xy 0.508 7.874) (xy 0.508 7.112)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 1.27) (xy 0.508 2.794) (xy -0.254 2.794) (xy 0.508 2.794) (xy 0.508 2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 -3.81) (xy 0.508 -2.286) (xy -0.254 -2.286) (xy 0.508 -2.286) (xy 0.508 -3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 6.35) (xy 1.524 7.874) (xy 0.762 7.874) (xy 1.524 7.874) (xy 1.524 7.112)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 1.524 2.794) (xy 0.762 2.794) (xy 1.524 2.794) (xy 1.524 2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -3.81) (xy 1.524 -2.286) (xy 0.762 -2.286) (xy 1.524 -2.286) (xy 1.524 -3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 6.35) (xy 1.27 3.81) (xy -1.27 5.08) (xy 1.27 6.35)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 1.27 6.35)
+					(end 1.27 6.35)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 5.08) (xy 2.54 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 1.27 3.81)
+					(end 1.27 6.35)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 1.27 1.27)
+					(end 1.27 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 1.27 -1.27)
+					(end 1.27 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -3.81) (xy 1.27 -6.35) (xy -1.27 -5.08) (xy 1.27 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -5.08) (xy 2.54 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.794 8.382)
+					(end -2.794 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "LED_KRGB_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 5.08 180)
+					(length 2.54)
+					(name "RA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "GA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -5.08 180)
+					(length 2.54)
+					(name "BA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(hierarchical_label "ROW_0"
+		(shape input)
+		(at 20.32 36.83 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3d913248-41c0-4666-aea3-9c131845c0a3")
+	)
+	(symbol
+		(lib_id "Device:LED_KRGB")
+		(at 247.65 63.5 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "03c1a656-cf87-4d89-bbe9-5c04c605992c")
+		(property "Reference" "D26"
+			(at 247.65 49.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_KRGB"
+			(at 247.65 52.07 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 247.65 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 247.65 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "RGB LED, cathode/red/green/blue"
+			(at 247.65 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "78151d35-3659-4417-9b9a-01a8e22212bb")
+		)
+		(pin "3"
+			(uuid "66355a30-0824-4937-9fb7-ba4725b0ba52")
+		)
+		(pin "2"
+			(uuid "30c94c73-cba0-4975-abc8-2841439969dd")
+		)
+		(pin "4"
+			(uuid "665d55f9-5ddd-4974-908d-c286d1f97e4d")
+		)
+		(instances
+			(project "sand-sim-keychain"
+				(path "/fe570e9b-62b0-459f-92e1-aa8303be1df2/3f75fc73-0a3e-4da6-81c6-4d0fb0a9f7c9"
+					(reference "D26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_KRGB")
+		(at 57.15 63.5 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "09cd7412-c829-476b-9ef9-f2ebfcbce57b")
+		(property "Reference" "D16"
+			(at 57.15 49.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_KRGB"
+			(at 57.15 52.07 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 57.15 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "RGB LED, cathode/red/green/blue"
+			(at 57.15 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8fc5b544-8843-420b-8e31-e66a69f5aa64")
+		)
+		(pin "3"
+			(uuid "7852dd55-185c-421a-b437-7d1d33caee3e")
+		)
+		(pin "2"
+			(uuid "241beece-0e2f-4136-a981-7ace275eabce")
+		)
+		(pin "4"
+			(uuid "3206b139-7f4d-4a44-b74f-c1ce069b9428")
+		)
+		(instances
+			(project "sand-sim-keychain"
+				(path "/fe570e9b-62b0-459f-92e1-aa8303be1df2/3f75fc73-0a3e-4da6-81c6-4d0fb0a9f7c9"
+					(reference "D16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_KRGB")
+		(at 209.55 63.5 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "12ea9be0-b560-48a1-bcad-bb9cc3c8ce11")
+		(property "Reference" "D24"
+			(at 209.55 49.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_KRGB"
+			(at 209.55 52.07 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 209.55 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 209.55 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "RGB LED, cathode/red/green/blue"
+			(at 209.55 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8f766cd5-cff0-4930-abfd-0ebc95bb86b9")
+		)
+		(pin "3"
+			(uuid "d221c086-3ccd-49ba-a2d4-b15ff03e58a7")
+		)
+		(pin "2"
+			(uuid "e319eb88-97cd-4487-8161-539a16a6a69a")
+		)
+		(pin "4"
+			(uuid "4efaf630-3614-4532-a2ee-26d559a6288b")
+		)
+		(instances
+			(project "sand-sim-keychain"
+				(path "/fe570e9b-62b0-459f-92e1-aa8303be1df2/3f75fc73-0a3e-4da6-81c6-4d0fb0a9f7c9"
+					(reference "D24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_KRGB")
+		(at 228.6 63.5 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "25a0eb1c-5023-452f-a50f-54f22be953bd")
+		(property "Reference" "D25"
+			(at 228.6 49.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_KRGB"
+			(at 228.6 52.07 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 228.6 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 228.6 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "RGB LED, cathode/red/green/blue"
+			(at 228.6 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3874952d-310a-4abb-9b72-3448d4329c30")
+		)
+		(pin "3"
+			(uuid "cefedcf3-42cf-4ff7-b577-e1772ce81991")
+		)
+		(pin "2"
+			(uuid "ac56529a-1e34-4d47-a435-df46bc3f7eba")
+		)
+		(pin "4"
+			(uuid "f9ec8d27-c913-476d-923d-9d7a6d1f7d17")
+		)
+		(instances
+			(project "sand-sim-keychain"
+				(path "/fe570e9b-62b0-459f-92e1-aa8303be1df2/3f75fc73-0a3e-4da6-81c6-4d0fb0a9f7c9"
+					(reference "D25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_KRGB")
+		(at 190.5 63.5 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "349e8ad9-30c2-4fe8-ad40-c54baa94a6e7")
+		(property "Reference" "D23"
+			(at 190.5 49.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_KRGB"
+			(at 190.5 52.07 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 190.5 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "RGB LED, cathode/red/green/blue"
+			(at 190.5 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "42206d42-e098-48a7-9c64-5377a36fe075")
+		)
+		(pin "3"
+			(uuid "09c4d1af-3ffa-445f-ba85-bc1eb739c838")
+		)
+		(pin "2"
+			(uuid "a3c5e38e-4fa1-4e07-bde7-99552bfc2f0a")
+		)
+		(pin "4"
+			(uuid "5f103e34-613d-45d0-89a8-8fd076c57bf0")
+		)
+		(instances
+			(project "sand-sim-keychain"
+				(path "/fe570e9b-62b0-459f-92e1-aa8303be1df2/3f75fc73-0a3e-4da6-81c6-4d0fb0a9f7c9"
+					(reference "D23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_KRGB")
+		(at 133.35 63.5 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "36ba1b46-1d22-4742-b9de-fe32d20ae3e1")
+		(property "Reference" "D20"
+			(at 133.35 49.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_KRGB"
+			(at 133.35 52.07 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 133.35 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "RGB LED, cathode/red/green/blue"
+			(at 133.35 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1a0d03ca-6200-4857-9a7e-d3ab80d07fd7")
+		)
+		(pin "3"
+			(uuid "0e8a707a-8ba7-4b26-8d51-9f752fa81428")
+		)
+		(pin "2"
+			(uuid "f37c94c8-16b7-4b0e-9441-fc125d8258f1")
+		)
+		(pin "4"
+			(uuid "d198d8ba-b7fc-496b-835c-5e0c3f1a8bfa")
+		)
+		(instances
+			(project "sand-sim-keychain"
+				(path "/fe570e9b-62b0-459f-92e1-aa8303be1df2/3f75fc73-0a3e-4da6-81c6-4d0fb0a9f7c9"
+					(reference "D20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_KRGB")
+		(at 228.6 38.1 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "47abb969-93e3-4dad-839f-a864ac4aa1e2")
+		(property "Reference" "D13"
+			(at 228.6 24.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_KRGB"
+			(at 228.6 26.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 228.6 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 228.6 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "RGB LED, cathode/red/green/blue"
+			(at 228.6 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "31d9b8fe-c235-4e0e-89f5-f5e87ef6fe5f")
+		)
+		(pin "3"
+			(uuid "995787f1-9060-4f27-b033-d4d3e6dfc070")
+		)
+		(pin "2"
+			(uuid "db614a57-ea48-4606-ac6a-ee01eab3ba9c")
+		)
+		(pin "4"
+			(uuid "1e0e6653-40c1-406e-8f64-85e42cc0dc9d")
+		)
+		(instances
+			(project "sand-sim-keychain"
+				(path "/fe570e9b-62b0-459f-92e1-aa8303be1df2/3f75fc73-0a3e-4da6-81c6-4d0fb0a9f7c9"
+					(reference "D13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_KRGB")
+		(at 152.4 38.1 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "512a219c-d038-4439-8225-c698d12c849d")
+		(property "Reference" "D9"
+			(at 152.4 24.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_KRGB"
+			(at 152.4 26.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 152.4 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "RGB LED, cathode/red/green/blue"
+			(at 152.4 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "eaca132b-3181-4ba2-846c-d7af01024c38")
+		)
+		(pin "3"
+			(uuid "0ce85b91-7e45-4ef8-a3a6-b2da18ebe551")
+		)
+		(pin "2"
+			(uuid "c0d5de3a-2e5b-4764-a95a-fb891ed4b363")
+		)
+		(pin "4"
+			(uuid "6401047f-e528-4689-b0e5-0029b94a467f")
+		)
+		(instances
+			(project "sand-sim-keychain"
+				(path "/fe570e9b-62b0-459f-92e1-aa8303be1df2/3f75fc73-0a3e-4da6-81c6-4d0fb0a9f7c9"
+					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_KRGB")
+		(at 133.35 38.1 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "52b1b180-5212-4ded-b7d5-34e21e6d61c8")
+		(property "Reference" "D8"
+			(at 133.35 24.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_KRGB"
+			(at 133.35 26.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 133.35 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "RGB LED, cathode/red/green/blue"
+			(at 133.35 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ca3a46cf-a225-471c-885a-ec435d377ceb")
+		)
+		(pin "3"
+			(uuid "22940915-5722-4413-918d-7b3b85bd76e8")
+		)
+		(pin "2"
+			(uuid "0ed402eb-c90d-4cab-851f-b3ef7093704f")
+		)
+		(pin "4"
+			(uuid "c3b7d077-30ce-4195-84e5-89dcd1de0a14")
+		)
+		(instances
+			(project "sand-sim-keychain"
+				(path "/fe570e9b-62b0-459f-92e1-aa8303be1df2/3f75fc73-0a3e-4da6-81c6-4d0fb0a9f7c9"
+					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_KRGB")
+		(at 76.2 38.1 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "57e48dd5-329b-4d57-9392-41e4544ae6a3")
+		(property "Reference" "D5"
+			(at 76.2 24.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_KRGB"
+			(at 76.2 26.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "RGB LED, cathode/red/green/blue"
+			(at 76.2 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "51dab6ed-010b-4606-a247-c5afdde1a5eb")
+		)
+		(pin "3"
+			(uuid "e760ac63-199a-4804-b928-9e00dece0575")
+		)
+		(pin "2"
+			(uuid "077dbba8-3860-446a-ae67-e9fe2b6bd7a9")
+		)
+		(pin "4"
+			(uuid "7f565552-daee-4afb-8bc5-ee126b68e4e8")
+		)
+		(instances
+			(project "sand-sim-keychain"
+				(path "/fe570e9b-62b0-459f-92e1-aa8303be1df2/3f75fc73-0a3e-4da6-81c6-4d0fb0a9f7c9"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_KRGB")
+		(at 209.55 38.1 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7a1fa96b-b180-4997-a167-4a4a383fd677")
+		(property "Reference" "D12"
+			(at 209.55 24.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_KRGB"
+			(at 209.55 26.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 209.55 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 209.55 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "RGB LED, cathode/red/green/blue"
+			(at 209.55 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6711a024-0cab-432e-b578-f1f78a90f240")
+		)
+		(pin "3"
+			(uuid "f7ce9f5f-31a0-4091-9e29-751844449b35")
+		)
+		(pin "2"
+			(uuid "ccaa669e-a90f-4fb5-82ed-d04c4841c19c")
+		)
+		(pin "4"
+			(uuid "65063f57-a02a-4282-b76e-e97a1e653a1e")
+		)
+		(instances
+			(project "sand-sim-keychain"
+				(path "/fe570e9b-62b0-459f-92e1-aa8303be1df2/3f75fc73-0a3e-4da6-81c6-4d0fb0a9f7c9"
+					(reference "D12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_KRGB")
+		(at 38.1 38.1 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8ebc0e67-0209-466d-81f5-3d4300cf5bfa")
+		(property "Reference" "D3"
+			(at 38.1 24.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_KRGB"
+			(at 38.1 26.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.1 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "RGB LED, cathode/red/green/blue"
+			(at 38.1 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cd37a7e4-5437-444d-a776-270d3bfa7530")
+		)
+		(pin "3"
+			(uuid "ce85f1fd-5545-4abb-af5e-85a1db96b337")
+		)
+		(pin "2"
+			(uuid "5d8ca81d-2771-44ea-8135-36489268f6e0")
+		)
+		(pin "4"
+			(uuid "ed51ad3e-93cf-4e38-8803-e28137b6f9ea")
+		)
+		(instances
+			(project "sand-sim-keychain"
+				(path "/fe570e9b-62b0-459f-92e1-aa8303be1df2/3f75fc73-0a3e-4da6-81c6-4d0fb0a9f7c9"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_KRGB")
+		(at 38.1 63.5 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8f27e550-0823-4914-8203-3261d2699719")
+		(property "Reference" "D15"
+			(at 38.1 49.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_KRGB"
+			(at 38.1 52.07 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.1 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "RGB LED, cathode/red/green/blue"
+			(at 38.1 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "07ed1533-9260-427e-8505-2d3a10c5d533")
+		)
+		(pin "3"
+			(uuid "ec05f537-9c48-4be4-9d0d-37442d6e0666")
+		)
+		(pin "2"
+			(uuid "dabd4760-246e-4a46-b962-d3379a6903b2")
+		)
+		(pin "4"
+			(uuid "0c1a2a03-ea49-4363-a220-b0b08e7f0223")
+		)
+		(instances
+			(project "sand-sim-keychain"
+				(path "/fe570e9b-62b0-459f-92e1-aa8303be1df2/3f75fc73-0a3e-4da6-81c6-4d0fb0a9f7c9"
+					(reference "D15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_KRGB")
+		(at 171.45 38.1 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9f437488-e3dc-42b7-8534-f9a9f3ee6df8")
+		(property "Reference" "D10"
+			(at 171.45 24.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_KRGB"
+			(at 171.45 26.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 171.45 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 171.45 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "RGB LED, cathode/red/green/blue"
+			(at 171.45 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7464f7ad-3b29-485b-ac51-39ff84ffcc6c")
+		)
+		(pin "3"
+			(uuid "a5cf90ef-82ed-46e4-95c7-de4d0a7313b7")
+		)
+		(pin "2"
+			(uuid "fda85c0d-8514-4286-ac2e-690ac7710b4d")
+		)
+		(pin "4"
+			(uuid "a2f9886e-d318-4862-8173-1a9d2b0e5ae8")
+		)
+		(instances
+			(project "sand-sim-keychain"
+				(path "/fe570e9b-62b0-459f-92e1-aa8303be1df2/3f75fc73-0a3e-4da6-81c6-4d0fb0a9f7c9"
+					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_KRGB")
+		(at 190.5 38.1 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "af32da83-8e3f-420f-b129-68ebbbae23d2")
+		(property "Reference" "D11"
+			(at 190.5 24.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_KRGB"
+			(at 190.5 26.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 190.5 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "RGB LED, cathode/red/green/blue"
+			(at 190.5 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "eadcef6a-c4c9-46dd-9eb9-a6420e8fc808")
+		)
+		(pin "3"
+			(uuid "7cc296c4-cc8f-4aec-a6b4-be0617bf10c3")
+		)
+		(pin "2"
+			(uuid "ff534cc9-4449-4142-bfe9-a9d1e331c690")
+		)
+		(pin "4"
+			(uuid "b72665ed-9ff7-439a-a148-4ad7be82a3fb")
+		)
+		(instances
+			(project "sand-sim-keychain"
+				(path "/fe570e9b-62b0-459f-92e1-aa8303be1df2/3f75fc73-0a3e-4da6-81c6-4d0fb0a9f7c9"
+					(reference "D11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_KRGB")
+		(at 114.3 63.5 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b68e3386-76ad-4beb-be32-4a85b8648a8b")
+		(property "Reference" "D19"
+			(at 114.3 49.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_KRGB"
+			(at 114.3 52.07 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.3 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "RGB LED, cathode/red/green/blue"
+			(at 114.3 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c31ba86b-9b4d-49c0-af70-d6534bdd2fac")
+		)
+		(pin "3"
+			(uuid "2c073b01-6edb-41d6-8658-c2f781302ea7")
+		)
+		(pin "2"
+			(uuid "895c7a16-4df3-4559-bd71-305f77d28e8c")
+		)
+		(pin "4"
+			(uuid "cf39a80b-3ac6-4e9f-9e77-e2b356f6dd59")
+		)
+		(instances
+			(project "sand-sim-keychain"
+				(path "/fe570e9b-62b0-459f-92e1-aa8303be1df2/3f75fc73-0a3e-4da6-81c6-4d0fb0a9f7c9"
+					(reference "D19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_KRGB")
+		(at 152.4 63.5 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c836883c-3e42-497b-8354-29097b27a493")
+		(property "Reference" "D21"
+			(at 152.4 49.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_KRGB"
+			(at 152.4 52.07 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 152.4 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "RGB LED, cathode/red/green/blue"
+			(at 152.4 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cf983e7a-aabd-49a1-a03b-8a2c607c758a")
+		)
+		(pin "3"
+			(uuid "fc748ddf-4dc2-465c-8935-5ed209a2c9a5")
+		)
+		(pin "2"
+			(uuid "3569e078-614d-46aa-b604-4595d1e801e0")
+		)
+		(pin "4"
+			(uuid "b225edd9-2b49-4788-85af-d76217a36eb7")
+		)
+		(instances
+			(project "sand-sim-keychain"
+				(path "/fe570e9b-62b0-459f-92e1-aa8303be1df2/3f75fc73-0a3e-4da6-81c6-4d0fb0a9f7c9"
+					(reference "D21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_KRGB")
+		(at 95.25 38.1 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c873e873-daba-4696-83f0-d48bdf175e14")
+		(property "Reference" "D6"
+			(at 95.25 24.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_KRGB"
+			(at 95.25 26.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 95.25 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "RGB LED, cathode/red/green/blue"
+			(at 95.25 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "57ed2c4b-8be8-4210-9fcf-caa95b3c3010")
+		)
+		(pin "3"
+			(uuid "3f4e9789-21e0-4488-adc7-6a453c700b75")
+		)
+		(pin "2"
+			(uuid "c2e0dc1c-9673-4a5c-9a2e-0a9f8240b471")
+		)
+		(pin "4"
+			(uuid "d9f522d7-68cb-44a2-ba1d-4b2c916d0364")
+		)
+		(instances
+			(project "sand-sim-keychain"
+				(path "/fe570e9b-62b0-459f-92e1-aa8303be1df2/3f75fc73-0a3e-4da6-81c6-4d0fb0a9f7c9"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_KRGB")
+		(at 76.2 63.5 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "dbf5ff85-e9f3-4443-9709-a12429293ad3")
+		(property "Reference" "D17"
+			(at 76.2 49.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_KRGB"
+			(at 76.2 52.07 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "RGB LED, cathode/red/green/blue"
+			(at 76.2 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "19bbf552-299e-4b38-bc49-17e42b605268")
+		)
+		(pin "3"
+			(uuid "b09cf912-95ed-4149-8798-4b50e6eb6e11")
+		)
+		(pin "2"
+			(uuid "d86a243d-9078-4fd9-9e3e-79f9af42e95c")
+		)
+		(pin "4"
+			(uuid "839c4eca-dbfe-41df-9fee-f5b52469502c")
+		)
+		(instances
+			(project "sand-sim-keychain"
+				(path "/fe570e9b-62b0-459f-92e1-aa8303be1df2/3f75fc73-0a3e-4da6-81c6-4d0fb0a9f7c9"
+					(reference "D17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_KRGB")
+		(at 114.3 38.1 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ddbc2131-5509-45d2-9202-4c5271477881")
+		(property "Reference" "D7"
+			(at 114.3 24.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_KRGB"
+			(at 114.3 26.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.3 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "RGB LED, cathode/red/green/blue"
+			(at 114.3 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "136d54cd-011f-4a82-b367-988cee585ab1")
+		)
+		(pin "3"
+			(uuid "45f019aa-6323-41aa-926e-b04346c51e95")
+		)
+		(pin "2"
+			(uuid "7f4e9206-fddb-4e71-af8d-2e8e42188dbe")
+		)
+		(pin "4"
+			(uuid "2d99356c-c617-4e3c-9936-0dc4d3b8f13a")
+		)
+		(instances
+			(project "sand-sim-keychain"
+				(path "/fe570e9b-62b0-459f-92e1-aa8303be1df2/3f75fc73-0a3e-4da6-81c6-4d0fb0a9f7c9"
+					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_KRGB")
+		(at 247.65 38.1 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e17169f8-1030-4361-a99e-ab3780c0375d")
+		(property "Reference" "D14"
+			(at 247.65 24.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_KRGB"
+			(at 247.65 26.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 247.65 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 247.65 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "RGB LED, cathode/red/green/blue"
+			(at 247.65 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4090248c-bcd4-441e-b22b-5318673dafef")
+		)
+		(pin "3"
+			(uuid "3a93ad11-bc54-4a30-b039-6b78db1ca89d")
+		)
+		(pin "2"
+			(uuid "b4b36482-62cd-4b8a-b445-aa7ac537e582")
+		)
+		(pin "4"
+			(uuid "49438a19-b4da-4ecf-a887-82abf5e0798f")
+		)
+		(instances
+			(project "sand-sim-keychain"
+				(path "/fe570e9b-62b0-459f-92e1-aa8303be1df2/3f75fc73-0a3e-4da6-81c6-4d0fb0a9f7c9"
+					(reference "D14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_KRGB")
+		(at 95.25 63.5 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e39edef9-5d5e-4b0f-a82c-aab7c75ac594")
+		(property "Reference" "D18"
+			(at 95.25 49.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_KRGB"
+			(at 95.25 52.07 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 95.25 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "RGB LED, cathode/red/green/blue"
+			(at 95.25 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cf009784-920b-4b4b-93bb-6359332648c1")
+		)
+		(pin "3"
+			(uuid "c097c9e6-c78e-4af8-b016-f43de80693a7")
+		)
+		(pin "2"
+			(uuid "43b49b2b-cd3e-41e2-96ad-5db6983f55c9")
+		)
+		(pin "4"
+			(uuid "0a6b8905-1ea0-4713-8a91-28df5c91bc40")
+		)
+		(instances
+			(project "sand-sim-keychain"
+				(path "/fe570e9b-62b0-459f-92e1-aa8303be1df2/3f75fc73-0a3e-4da6-81c6-4d0fb0a9f7c9"
+					(reference "D18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_KRGB")
+		(at 57.15 38.1 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e4e1fde1-846b-4cac-95fd-49bb3d1c0fc0")
+		(property "Reference" "D4"
+			(at 57.15 24.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_KRGB"
+			(at 57.15 26.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 57.15 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "RGB LED, cathode/red/green/blue"
+			(at 57.15 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a8232a5e-0728-4fe0-8a76-52ad6247aebe")
+		)
+		(pin "3"
+			(uuid "c88c0bad-33ef-414f-9255-eab292251bae")
+		)
+		(pin "2"
+			(uuid "66213556-369a-4c06-a308-5689fb34421f")
+		)
+		(pin "4"
+			(uuid "4a65c495-55e2-4aee-b4b2-e94ca95f62da")
+		)
+		(instances
+			(project "sand-sim-keychain"
+				(path "/fe570e9b-62b0-459f-92e1-aa8303be1df2/3f75fc73-0a3e-4da6-81c6-4d0fb0a9f7c9"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED_KRGB")
+		(at 171.45 63.5 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "eb597e62-f863-43cd-a648-358711d749bf")
+		(property "Reference" "D22"
+			(at 171.45 49.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_KRGB"
+			(at 171.45 52.07 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 171.45 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 171.45 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "RGB LED, cathode/red/green/blue"
+			(at 171.45 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bf32b20f-1da3-44c9-8da5-80e5adee198c")
+		)
+		(pin "3"
+			(uuid "fa86e499-99aa-4e40-a6e0-29e628de5beb")
+		)
+		(pin "2"
+			(uuid "afcc46a3-c4c5-4452-90cb-0be83d7e9967")
+		)
+		(pin "4"
+			(uuid "cfad9bf8-66b0-48c9-b25c-fa929242c00a")
+		)
+		(instances
+			(project "sand-sim-keychain"
+				(path "/fe570e9b-62b0-459f-92e1-aa8303be1df2/3f75fc73-0a3e-4da6-81c6-4d0fb0a9f7c9"
+					(reference "D22")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
