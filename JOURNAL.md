@@ -5,10 +5,13 @@ description: "A sand simulator led keychain"
 start_date: "2026-05-06"
 image_url: "https://placehold.co/600x400"
 image_alt_text: "Placeholder image"
-"View a web version at [https://journal.person20020.dev/journal/sand-sim-keychain](https://journal.person20020.dev/journal/sand-sim-keychain)"
 ---
 
 # Journal
+
+<span class="github-only">
+    View a web version <a href="https://journal.person20020.dev/journal/sand-sim-keychain">here</a>.
+</span>
 
 ## 2026-05-06 -- Research
 
