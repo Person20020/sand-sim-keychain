@@ -10,7 +10,7 @@ image_alt_text: "Placeholder image"
 # Journal
 
 <span class="github-only">
-    View a web version <a href="https://journal.person20020.dev/journal/sand-sim-keychain">here</a>.
+    View a web version <a href="https://journal.person20020.dev/journal/sand-sim-keychain" target="_blank">here</a>.
 </span>
 
 ## 2026-05-06 -- Research
